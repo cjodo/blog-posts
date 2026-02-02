@@ -1,9 +1,8 @@
-# How I built this site, using Go, and Templ
+# How to Build a portfolio, using Go, and Templ
 
-Over the last few months, I've been really loving both the simplicity, and the power that Go provides.  I wanted to put this into a nice app, and rewrite the portfolio prototype I had initially written in React, being served from a go backend.  The problem I ran into was that, for the features I wanted for just a simple portfolio site to showcase the things I'm building or write down a few thoughts in a blog requires a lot of unnecessary complexity and overhead. After some digging I came across this article: [https://mortenvistisen.com/posts/how-to-create-a-blog-using-golang](https://mortenvistisen.com/posts/how-to-create-a-blog-using-golang), it gave me a starting place to build off of for the features that I wanted.
+Over the last few months, I've been really loving both the simplicity, and the power that Go provides.  I wanted to put this into a nice website, and rewrite the portfolio prototype I had initially written in React, being served from a go backend.  The problem I ran into was that, for the features I wanted for just a simple portfolio site to showcase the things I'm building or write down a few thoughts in a blog requires a lot of unnecessary complexity and overhead. After some digging I came across this article: [https://mortenvistisen.com/posts/how-to-create-a-blog-using-golang](https://mortenvistisen.com/posts/how-to-create-a-blog-using-golang), it gave me a starting place to build off of for the features that I wanted.
 
-This article can help anyone that would like to do the same.
-## The Frontend: Templ
+## Frontend: Templ
 
 Templ is a **type-safe HTML generation tool** that compiles .templ files into go functions.  This leverages go's type system to generate html at compile time and include them in the single go binary, this makes it fast and gives me all the features that SSR frameworks like Next give you.  
 
