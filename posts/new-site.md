@@ -7,8 +7,7 @@ This post walks through how this site is built using **Astro**, deployed on **Ra
 ## Overview
 
 **Live site:** cjodo.com
-**Source code:**  
-**Content repo:**  
+**Source code:**  [Github](https://github.com/cjodo/astro-portfolio) 
 **Deployment:** Railway  
 
 ## Cloudflare Worker for Blog Posts
@@ -79,4 +78,4 @@ Astro Static Site (Railway)
 Cloudflare Worker API
 ↓
 GitHub Content Repository
-
+```
