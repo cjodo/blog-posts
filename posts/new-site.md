@@ -1,4 +1,4 @@
-# How I build this site
+# How I built this site
 
 This post walks through how this site is built using **Astro**, deployed on **Railway**, with a **Cloudflare Worker** that fetches blog content from a **GitHub repository**.
 
